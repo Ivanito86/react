@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React Tutorial</title>
+    <!-- Not present in the tutorial. Just for basic styling. -->
+    <link rel="stylesheet" href="css/base.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-with-addons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="content" class="col-lg-12 col-md-12 col-sm-12"></div>
+    <script type="text/babel" src="scripts/post_app.js"></script>
+    <!--<script type="text/babel">
+
+  var App = React.createClass({
+   getInitialState: function(){
+       return {
+           active: true
+       }
+   },
+   handleClick: function(){
+       this.setState({
+           active: !this.state.active
+       });
+   },
+   render: function(){
+       var buttonSwitch = this.state.active ? "On" : "Off";
+       return (
+           <div>
+               <p>Click the button!</p>
+               <input type="submit" onClick={this.handleClick} />
+               <p>{buttonSwitch}</p>
+           </div>
+       );
+   }
+});
+React.render(<App />,  document.getElementById("content"));
+
+
+   </script>-->
+</body>
+</html>
